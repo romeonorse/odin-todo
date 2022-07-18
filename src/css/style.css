@@ -22,6 +22,7 @@ body {
   background-color: var(--main-color);
   color: var(--back-color);
   cursor: pointer;
+  margin-top: 1rem;
 }
 
 .main-header {
@@ -83,4 +84,22 @@ main {
   display: inline-block;
   padding: 1rem;
   border-radius: 0.5rem;
+}
+
+.projects, .project-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.todo {
+  font-size: 1.5rem;
+  cursor: pointer;
+  font-style: italic;
+}
+
+.hidden {
+  display: none;
 }
