@@ -1,4 +1,4 @@
-class Project {
+class Todo {
   constructor(title, desc, dueDate) {
     this.title = title,
     this.desc = desc,
@@ -8,7 +8,7 @@ class Project {
 
 function createObject(title, desc, dueDate) {
   // Creating new todo
-  const newProject = new Project(title, desc, dueDate);
+  const newTodo = new Todo(title, desc, dueDate);
   const newTodo = document.createElement('div');
   newTodo.classList.add('todo');
   newTodo.innerHTML = `

@@ -18,4 +18,4 @@ todos.forEach(todo => todo.addEventListener('click', function(e) {
   console.log(todo.innerText);
 }))
 
-console.log(todos);
+// console.log(todos);
